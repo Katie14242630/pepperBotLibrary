@@ -1,1 +1,0 @@
-/home/student/pepper_ws/build/dynamixel_sdk_custom_interfaces/rosidl_cmake/srv/GetPosition_Response.msg

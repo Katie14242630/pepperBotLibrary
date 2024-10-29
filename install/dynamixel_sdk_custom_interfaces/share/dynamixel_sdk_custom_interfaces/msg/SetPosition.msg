@@ -1,1 +1,0 @@
-/home/student/pepper_ws/src/utils/DynamixelSDK/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
