@@ -1,0 +1,17 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing move_pepper.egg-info/PKG-INFO
+writing dependency_links to move_pepper.egg-info/dependency_links.txt
+writing entry points to move_pepper.egg-info/entry_points.txt
+writing requirements to move_pepper.egg-info/requires.txt
+writing top-level names to move_pepper.egg-info/top_level.txt
+reading manifest file 'move_pepper.egg-info/SOURCES.txt'
+writing manifest file 'move_pepper.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/student/pepper_ws/install/move_pepper/lib/python3.10/site-packages/move-pepper.egg-link (link to .)
+Installing amcl_init_pose_publisher script to /home/student/pepper_ws/install/move_pepper/lib/move_pepper
+
+Installed /home/student/pepper_ws/build/move_pepper
+running symlink_data

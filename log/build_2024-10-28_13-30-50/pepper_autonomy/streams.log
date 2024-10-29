@@ -1,0 +1,26 @@
+[0.660s] Invoking command in '/home/student/pepper_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/student/pepper_ws/build/pepper_autonomy -- -j8 -l8
+[0.752s] [100%] Built target autonomy_node
+[0.779s] Invoked command in '/home/student/pepper_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/student/pepper_ws/build/pepper_autonomy -- -j8 -l8
+[0.825s] Invoking command in '/home/student/pepper_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/student/pepper_ws/build/pepper_autonomy
+[0.841s] -- Install configuration: ""
+[0.841s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml
+[0.841s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/bt_xml/tree.xml
+[0.841s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/launch
+[0.842s] -- Installing: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/launch/autonomy.launch.py
+[0.842s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/lib/pepper_autonomy/autonomy_node
+[0.842s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/ament_index/resource_index/package_run_dependencies/pepper_autonomy
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/ament_index/resource_index/parent_prefix_path/pepper_autonomy
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.sh
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/environment/ament_prefix_path.dsv
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.sh
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/environment/path.dsv
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.bash
+[0.843s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.sh
+[0.844s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.zsh
+[0.844s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/local_setup.dsv
+[0.844s] -- Installing: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/package.dsv
+[0.844s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/ament_index/resource_index/packages/pepper_autonomy
+[0.845s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig.cmake
+[0.846s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/cmake/pepper_autonomyConfig-version.cmake
+[0.847s] -- Up-to-date: /home/student/pepper_ws/install/pepper_autonomy/share/pepper_autonomy/package.xml
+[0.851s] Invoked command in '/home/student/pepper_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/student/pepper_ws/build/pepper_autonomy
