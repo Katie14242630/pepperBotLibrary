@@ -1,0 +1,14 @@
+[0.517s] Invoking command in '/home/student/pepper_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/student/pepper_ws/build/pepper_autonomy -- -j8 -l8
+[0.679s] [ 33%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[6.699s] [ 66%] [32m[1mLinking CXX executable autonomy_node[0m
+[7.508s] [100%] Built target autonomy_node
+[7.533s] Invoked command in '/home/student/pepper_ws/build/pepper_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/student/pepper_ws/build/pepper_autonomy -- -j8 -l8
+[7.585s] Invoking command in '/home/student/pepper_ws/build/pepper_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/student/pepper_ws/build/pepper_autonomy
+[7.596s] -- Install configuration: ""
+[7.596s] [31mCMake Error at cmake_install.cmake:46 (file):
+[7.596s]   file INSTALL cannot find
+[7.596s]   "/home/student/pepper_ws/src/pepper_autonomy/bt_xml": No such file or
+[7.596s]   directory.
+[7.596s] 
+[7.596s] [0m
+[7.598s] Invoked command in '/home/student/pepper_ws/build/pepper_autonomy' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --install /home/student/pepper_ws/build/pepper_autonomy

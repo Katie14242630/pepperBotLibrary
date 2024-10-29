@@ -1,0 +1,10 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable autonomy_node[0m
+[100%] Built target autonomy_node
+-- Install configuration: ""
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/student/pepper_ws/src/pepper_autonomy/bt_xml": No such file or
+  directory.
+
+[0m

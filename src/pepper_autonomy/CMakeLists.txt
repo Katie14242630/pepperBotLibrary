@@ -5,7 +5,12 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+<<<<<<< HEAD
 # Find dependencies
+=======
+
+# find dependencies
+>>>>>>> fa055aa (This all works for now)
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclcpp_action REQUIRED)
@@ -14,7 +19,10 @@ find_package(behaviortree_cpp_v3 REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
+<<<<<<< HEAD
 find_package(sensor_msgs REQUIRED)  # Added for LaserScan message
+=======
+>>>>>>> fa055aa (This all works for now)
 
 # Install directories
 install(DIRECTORY
@@ -35,16 +43,23 @@ set(TARGET_DEPENDS
     nav2_msgs
     tf2
     tf2_geometry_msgs
+<<<<<<< HEAD
     sensor_msgs  # Added dependency for LaserScan message
 )
 
 include_directories(include)
 
 # Add the autonomy node
+=======
+)
+
+include_directories(include)
+>>>>>>> fa055aa (This all works for now)
 add_executable(autonomy_node src/autonomy_node.cpp ${BEHAVIOR_SOURCES})
 ament_target_dependencies(autonomy_node ${TARGET_DEPENDS})
 target_link_libraries(autonomy_node ${YAML_CPP_LIBRARIES})
 
+<<<<<<< HEAD
 # Add the object detection node
 add_executable(object_detector src/object_detector.cpp)
 ament_target_dependencies(object_detector ${TARGET_DEPENDS})
@@ -58,6 +73,21 @@ install(TARGETS
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
+=======
+install(TARGETS
+autonomy_node
+DESTINATION lib/${PROJECT_NAME})
+
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # uncomment the line when a copyright and license is not present in all source files
+  #set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # uncomment the line when this package is not in a git repo
+  #set(ament_cmake_cpplint_FOUND TRUE)
+>>>>>>> fa055aa (This all works for now)
   ament_lint_auto_find_test_dependencies()
 endif()
 

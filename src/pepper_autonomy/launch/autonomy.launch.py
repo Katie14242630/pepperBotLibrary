@@ -2,10 +2,17 @@ import os
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch_ros.actions import Node
+<<<<<<< HEAD
 
 def generate_launch_description():
     pkg_pepper_autonomy = get_package_share_directory('pepper_autonomy')
 
+=======
+ 
+def generate_launch_description():
+    pkg_pepper_autonomy = get_package_share_directory('pepper_autonomy')
+ 
+>>>>>>> fa055aa (This all works for now)
     # Autonomy node
     autonomy_node_cmd = Node(
         package="pepper_autonomy",
@@ -16,6 +23,7 @@ def generate_launch_description():
         }],
         output="screen"
     )
+<<<<<<< HEAD
 
     # Object detector node
     object_detector_cmd = Node(
@@ -32,3 +40,21 @@ def generate_launch_description():
     ld.add_action(object_detector_cmd)
 
     return ld
+=======
+ 
+    # Object detector node
+   # object_detector_cmd = Node(
+       # package="pepper_autonomy",
+      #  executable="object_detector",
+       # name="object_detector",
+    #    output="screen"
+ #   )
+ 
+    # Create launch description and add both nodes
+    ld = LaunchDescription()
+ 
+    ld.add_action(autonomy_node_cmd)
+   # ld.add_action(object_detector_cmd)
+ 
+    return ld
+>>>>>>> fa055aa (This all works for now)

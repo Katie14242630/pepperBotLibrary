@@ -1,0 +1,10 @@
+/home/student/pepper_ws/build/book_database/CMakeFiles/uninstall.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/book_database_uninstall.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/book_database.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/test.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/edit_cache.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/rebuild_cache.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/list_install_components.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/install.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/install/local.dir
+/home/student/pepper_ws/build/book_database/CMakeFiles/install/strip.dir
