@@ -1,9 +1,0 @@
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/uninstall.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/pepper_autonomy_uninstall.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/test.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/edit_cache.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/rebuild_cache.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/list_install_components.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/install.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/install/local.dir
-/home/student/pepper_ws/src/build/pepper_autonomy/CMakeFiles/install/strip.dir
