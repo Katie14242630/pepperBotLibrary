@@ -1,0 +1,7 @@
+[01m[K/home/student/pepper_ws/src/book_database/src/book_database.cpp:[m[K In member function ‘[01m[Kvoid BookDatabaseNode::handle_user_input()[m[K’:
+[01m[K/home/student/pepper_ws/src/book_database/src/book_database.cpp:140:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >[m[K’ {aka ‘[01m[Kclass rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kpublish[m[K’
+  140 |             borrow_subscriber_->[01;31m[Kpublish[m[K(msg);
+      |                                 [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/book_database.dir/build.make:76: CMakeFiles/book_database.dir/src/book_database.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/book_database.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

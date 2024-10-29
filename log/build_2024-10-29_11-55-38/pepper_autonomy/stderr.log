@@ -1,0 +1,74 @@
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus GoToPose::onStart()[m[K’:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   42 |   [01;31m[Ktf2[m[K::Quaternion q;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+   43 |   [01;31m[Kq[m[K.setRPY(0, 0, goal_[2]);  // Keep orientation as set in goal if applicable
+      |   [01;31m[K^[m[K
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:45:36:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+   45 |   goal_msg.pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(q);
+      |                                    [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/include/navigation_behaviors.h:5[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:1[m[K:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus GoToPose::onRunning()[m[K’:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:59:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kconst string[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   59 |     RCLCPP_INFO(node_ptr_->get_logger(), [01;35m[K"[%s] Goal reached\n"[m[K, this->name());
+      |                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/navigation_behaviors.cpp:59:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   59 |     RCLCPP_INFO(node_ptr_->get_logger(), "[[01;36m[K%s[m[K] Goal reached\n", this->name());
+      |                                            [01;36m[K~^[m[K
+      |                                             [01;36m[K|[m[K
+      |                                             [01;36m[Kchar*[m[K
+In file included from [01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:1[m[K:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/include/autonomy_node.h:20:7:[m[K [01;31m[Kerror: [m[K‘[01m[KBehaviorTree[m[K’ in namespace ‘[01m[KBT[m[K’ does not name a type; did you mean ‘[01m[KBehaviorTreeFactory[m[K’?
+   20 |   BT::[01;31m[KBehaviorTree[m[K tree_;
+      |       [01;31m[K^~~~~~~~~~~~[m[K
+      |       [32m[KBehaviorTreeFactory[m[K
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:7:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kament_index_cpp[m[K’ has not been declared
+    7 |     [01;31m[Kament_index_cpp[m[K::get_package_share_directory("pepper_autonomy") + "/bt_xml";
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:[m[K In member function ‘[01m[Kvoid AutonomyNode::create_behavior_tree()[m[K’:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree_[m[K’ was not declared in this scope
+   47 |   [01;31m[Ktree_[m[K = factory.createTreeFromFile(bt_xml_dir + "/tree.xml");
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:[m[K In member function ‘[01m[Kvoid AutonomyNode::update_behavior_tree()[m[K’:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:53:32:[m[K [01;31m[Kerror: [m[K‘[01m[Ktree_[m[K’ was not declared in this scope
+   53 |   BT::NodeStatus tree_status = [01;31m[Ktree_[m[K.tickRoot();
+      |                                [01;31m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/include/autonomy_node.h:4[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:1[m[K:
+/usr/include/c++/11/bits/unique_ptr.h: In instantiation of ‘[01m[Ktypename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...) [with _Tp = GoToPose; _Args = {const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&, std::shared_ptr<rclcpp::Node>}; typename std::_MakeUniq<_Tp>::__single_object = std::unique_ptr<GoToPose, std::default_delete<GoToPose> >][m[K’:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:40:38:[m[K   required from here
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:962:30:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KGoToPose[m[K’
+  962 |     { return unique_ptr<_Tp>([01;31m[Knew _Tp(std::forward<_Args>(__args)...)[m[K); }
+      |                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/student/pepper_ws/src/pepper_autonomy/include/autonomy_node.h:7[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:1[m[K:
+[01m[K/home/student/pepper_ws/src/pepper_autonomy/include/navigation_behaviors.h:14:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KGoToPose[m[K’:
+   14 | class [01;36m[KGoToPose[m[K : public BT::StatefulActionNode
+      |       [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/include/autonomy_node.h:5[m[K,
+                 from [01m[K/home/student/pepper_ws/src/pepper_autonomy/src/autonomy_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:174:16:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual void BT::StatefulActionNode::onHalted()[m[K’
+  174 |   virtual void [01;36m[KonHalted[m[K() = 0;
+      |                [01;36m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:90: CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/autonomy_node.dir/build.make:76: CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomy_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

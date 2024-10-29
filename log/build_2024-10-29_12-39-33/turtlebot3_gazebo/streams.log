@@ -1,0 +1,6 @@
+[0.128s] Invoking command in '/home/student/pepper_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/student/pepper_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.403s] [ 25%] Built target turtlebot3_drive
+[0.549s] [ 50%] Built target obstacles
+[0.684s] [ 75%] Built target obstacle2
+[0.852s] [100%] Built target obstacle1
+[1.574s] Invoked command in '/home/student/pepper_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/pepper_ws/install/turtlebot3_teleop:/home/student/pepper_ws/install/turtlebot3_example:/home/student/pepper_ws/install/move_pepper:/home/student/ros2_ws/install/autonomous_tb3:/opt/ros/humble /usr/bin/cmake --build /home/student/pepper_ws/build/turtlebot3_gazebo -- -j8 -l8

@@ -735,6 +735,10 @@ CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o: \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/empty__traits.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Scalar.h \
@@ -743,12 +747,7 @@ CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o: \
  /opt/ros/humble/include/tf2/tf2/LinearMath/MinMax.h \
  /opt/ros/humble/include/tf2/tf2/visibility_control.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
- /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h \
  /opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__struct.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp \
- /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/quaternion_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion_stamped__builder.hpp \

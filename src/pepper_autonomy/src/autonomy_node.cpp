@@ -50,22 +50,29 @@ void AutonomyNode::create_behavior_tree()
 
 void AutonomyNode::update_behavior_tree()
 {
-  BT::NodeStatus tree_status = tree_.tickRoot();
+    BT::NodeStatus tree_status = tree_.tickRoot();
 
-  if (tree_status == BT::NodeStatus::RUNNING)
-  {
-    return;
-  }
-  else if (tree_status == BT::NodeStatus::SUCCESS)
-  {
-    RCLCPP_INFO(this->get_logger(), "Finished Navigation");
-  }
-  else if (tree_status == BT::NodeStatus::FAILURE)
-  {
-    RCLCPP_INFO(this->get_logger(), "Navigation Failed");
-    timer_->cancel();
-  }
+    if (tree_status == BT::NodeStatus::RUNNING)
+    {
+        return; // Keep running the behavior tree
+    }
+    else if (tree_status == BT::NodeStatus::SUCCESS)
+    {
+        RCLCPP_INFO(this->get_logger(), "Finished Navigation");
+        timer_->cancel(); // Stop the timer if navigation finished successfully
+    }
+    else if (tree_status == BT::NodeStatus::FAILURE)
+    {
+        // Check if the failure is due to lack of goal pose
+        // You might want to log if a valid goal was never received
+        RCLCPP_WARN(this->get_logger(), "Navigation Failed due to invalid goal pose or other reason");
+
+        // Optionally, implement a check to retry or wait for a goal
+        // Here you can restart the behavior tree, or reset some states if needed
+        timer_->cancel();
+    }
 }
+
 
 int main(int argc, char **argv)
 {
