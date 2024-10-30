@@ -44,8 +44,8 @@ def generate_launch_description():
       executable="amcl_init_pose_publisher",
       name="amcl_init_pose_publisher",
       parameters=[{
-          "x": -2.0,
-          "y": -0.5,
+          "x": 0.0,
+          "y": 0.0,
       }]
   )
 
